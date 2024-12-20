@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repo Doc Generator</title>
+</head>
+<body>
+    <h1>Generate Documentation from a GitHub Repository</h1>
+    <form id="repoForm" action="/generate-docs" method="POST">
+        <label for="repoUrl">GitHub Repository URL:</label>
+        <input type="text" id="repoUrl" name="repoUrl" placeholder="https://github.com/user/repo" required>
+        <button type="submit">Generate</button>
+    </form>
+</body>
+</html>
